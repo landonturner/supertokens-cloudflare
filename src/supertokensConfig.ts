@@ -4,7 +4,7 @@ import SuperTokensTypes from "supertokens-node/types";
 
 export function getSupertokensConfig(): SuperTokensTypes.TypeInput {
   return {
-    framework: "express",
+    framework: "awsLambda",
     supertokens: {
       connectionURI: "add connection uri",
       apiKey: "add api key",
